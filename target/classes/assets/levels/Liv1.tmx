@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="17" height="10" tilewidth="250" tileheight="250" infinite="0" nextlayerid="16" nextobjectid="154">
+ <tileset firstgid="1" name="gioco_pezzi-45" tilewidth="250" tileheight="250" tilecount="42" columns="7">
+  <image source="../../../../../../../Documents/Progetti videogiochi/Traffic/ggrafica/gioco_pezzi-45.png" width="1750" height="1500"/>
+ </tileset>
+ <tileset firstgid="43" name="Puntatore" tilewidth="250" tileheight="250" tilecount="1" columns="1">
+  <image source="../../../../../../../Documents/Progetti videogiochi/Traffic/ggrafica/traffic_square/Puntatore.png" width="250" height="250"/>
+ </tileset>
+ <layer id="1" name="Sfondo" width="17" height="10">
+  <data encoding="csv">
+41,41,41,41,27,33,5,42,42,42,42,42,42,26,5,28,39,
+25,25,25,25,25,18,5,25,25,25,25,25,25,32,5,34,25,
+6,6,3,6,6,6,1,6,6,6,6,6,6,6,7,6,6,
+27,19,5,21,13,13,13,13,13,13,13,13,13,19,5,21,27,
+39,26,5,14,24,24,24,24,24,24,24,24,24,12,5,37,42,
+24,12,5,14,24,24,24,24,24,24,24,24,24,12,5,37,42,
+25,18,5,20,11,11,11,11,11,11,11,11,11,18,5,20,25,
+6,6,7,6,6,6,6,6,6,6,3,6,6,6,1,6,6,
+27,33,5,35,27,27,27,27,27,27,5,35,27,27,27,27,27,
+42,32,5,28,40,40,40,40,40,40,5,28,24,39,39,39,39
+</data>
+ </layer>
+ <objectgroup id="9" name="Incroci">
+  <object id="44" name="Incrocio" type="Incrocio" x="500" y="500" width="250" height="250"/>
+  <object id="47" name="Incrocio" type="Incrocio" x="500" y="1750" width="250" height="250"/>
+  <object id="48" name="Incrocio" type="Incrocio" x="2500" y="1750" width="250" height="250"/>
+  <object id="49" name="Incrocio" type="Incrocio" x="3500" y="1750" width="250" height="250"/>
+  <object id="50" name="Incrocio" type="Incrocio" x="3500" y="500" width="250" height="250"/>
+  <object id="51" name="Incrocio" type="Incrocio" x="1500" y="500" width="250" height="250"/>
+  <object id="106" name="Spawner" type="VehicleSpawner" x="4900" y="552.5" rotation="180"/>
+  <object id="119" name="Exit1" type="Uscita" x="3500" y="-800" width="250" height="250"/>
+  <object id="120" name="Exit1" type="Uscita" x="5200" y="500" width="250" height="250"/>
+  <object id="121" name="Exit1" type="Uscita" x="5200" y="1750" width="250" height="250"/>
+  <object id="122" name="Exit1" type="Uscita" x="-1200" y="1750" width="250" height="250"/>
+  <object id="123" name="Exit1" type="Uscita" x="-1200" y="500" width="250" height="250"/>
+  <object id="125" name="Exit1" type="Uscita" x="500" y="3400" width="250" height="250"/>
+  <object id="126" name="Exit1" type="Uscita" x="2750" y="3400" width="250" height="250"/>
+  <object id="127" name="Exit1" type="Uscita" x="1250" y="-800" width="250" height="250"/>
+  <object id="128" name="Spawner" type="VehicleSpawner" x="-700" y="1897.5"/>
+  <object id="129" name="Spawner" type="VehicleSpawner" x="3522.5" y="-40" rotation="90"/>
+  <object id="138" name="Spawner" type="VehicleSpawner" x="4900" y="1792.5" rotation="180"/>
+  <object id="141" name="Spawner" type="VehicleSpawner" x="627.5" y="3100" rotation="270"/>
+ </objectgroup>
+ <objectgroup id="6" name="SemaforiRossiObj">
+  <object id="66" name="Semaforo" type="SemaforoRosso" x="3500" y="500" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="72" name="Semaforo" type="SemaforoRosso" x="3500" y="1750" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="73" name="Semaforo" type="SemaforoRosso" x="500" y="1750" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="74" name="Semaforo" type="SemaforoRosso" x="1500" y="500" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="79" name="Semaforo" type="SemaforoRosso" x="3750" y="750" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="80" name="Semaforo" type="SemaforoRosso" x="2750" y="2000" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="81" name="Semaforo" type="SemaforoRosso" x="750" y="2000" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="82" name="Semaforo" type="SemaforoRosso" x="750" y="750" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="87" name="Semaforo" type="SemaforoRosso" x="3750" y="500" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="89" name="Semaforo" type="SemaforoRosso" x="3750" y="1750" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="90" name="Semaforo" type="SemaforoRosso" x="750" y="1750" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="93" name="Semaforo" type="SemaforoRosso" x="1750" y="500" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="98" name="Semaforo" type="SemaforoRosso" x="500" y="750" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="99" name="Semaforo" type="SemaforoRosso" x="500" y="2000" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="100" name="Semaforo" type="SemaforoRosso" x="2500" y="2000" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="101" name="Semaforo" type="SemaforoRosso" x="3500" y="750" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="114" name="Semaforo" type="SemaforoRosso" x="3500" y="2000" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="115" name="Semaforo" type="SemaforoRosso" x="2750" y="1750" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="116" name="Semaforo" type="SemaforoRosso" x="1500" y="750" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="117" name="Semaforo" type="SemaforoRosso" x="750" y="500" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="SemaforiVerdiObj">
+  <object id="68" name="Semaforo" type="SemaforoVerde" x="3500" y="500" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="75" name="Semaforo" type="SemaforoVerde" x="3500" y="1750" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="76" name="Semaforo" type="SemaforoVerde" x="500" y="1750" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="78" name="Semaforo" type="SemaforoVerde" x="1500" y="500" width="250" height="250" rotation="180">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="83" name="Semaforo" type="SemaforoVerde" x="3750" y="750" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="84" name="Semaforo" type="SemaforoVerde" x="2750" y="2000" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="85" name="Semaforo" type="SemaforoVerde" x="750" y="2000" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="86" name="Semaforo" type="SemaforoVerde" x="750" y="750" width="250" height="250">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="94" name="Semaforo" type="SemaforoVerde" x="3750" y="500" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="95" name="Semaforo" type="SemaforoVerde" x="3750" y="1750" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="96" name="Semaforo" type="SemaforoVerde" x="750" y="1750" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="97" name="Semaforo" type="SemaforoVerde" x="1750" y="500" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="102" name="Semaforo" type="SemaforoVerde" x="500" y="750" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="103" name="Semaforo" type="SemaforoVerde" x="3500" y="750" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="104" name="Semaforo" type="SemaforoVerde" x="2500" y="2000" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="105" name="Semaforo" type="SemaforoVerde" x="500" y="2000" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="109" name="Semaforo" type="SemaforoVerde" x="3500" y="2000" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="110" name="Semaforo" type="SemaforoVerde" x="2750" y="1750" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="111" name="Semaforo" type="SemaforoVerde" x="750" y="500" width="250" height="250" rotation="-90">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="113" name="Semaforo" type="SemaforoVerde" x="1500" y="750" width="250" height="250" rotation="-270">
+   <properties>
+    <property name="startsVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="FuoriStrada" visible="0">
+  <object id="142" name="FuoriStrada" type="FuoriStrada" x="1509.09" y="0" width="1984.85" height="484.848"/>
+  <object id="143" name="FuoriStrada" type="FuoriStrada" x="3760.61" y="12.1212" width="484.848" height="481.818"/>
+  <object id="144" name="FuoriStrada" type="FuoriStrada" x="3760.61" y="763.636" width="493.939" height="963.636"/>
+  <object id="145" name="FuoriStrada" type="FuoriStrada" x="3006.06" y="2018.18" width="1248.48" height="481.818"/>
+  <object id="148" name="FuoriStrada" type="FuoriStrada" x="760.606" y="2009.09" width="1987.88" height="487.879"/>
+  <object id="149" name="FuoriStrada" type="FuoriStrada" x="6.06061" y="2012.12" width="484.848" height="472.727"/>
+  <object id="150" name="FuoriStrada" type="FuoriStrada" x="9.09091" y="763.636" width="475.758" height="969.697"/>
+  <object id="151" name="FuoriStrada" type="FuoriStrada" x="15.1515" y="12.1212" width="1227.27" height="472.727"/>
+  <object id="153" name="FuoriStrada" type="FuoriStrada" x="754.545" y="754.545" width="2736.36" height="990.909"/>
+ </objectgroup>
+ <objectgroup id="13" name="Puntatore">
+  <object id="59" name="Puntatore" type="Puntatore" x="500" y="500" width="250" height="250"/>
+ </objectgroup>
+</map>
